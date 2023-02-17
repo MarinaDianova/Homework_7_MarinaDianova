@@ -75,7 +75,7 @@ System.Console.WriteLine();
 
 metka:
 System.Console.WriteLine("Введите через пробел требуемые координаты (номер строки и номер столбца): ");
-int[]? arrayCoord = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+int[] arrayCoord = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 if (arrayCoord.Length != 2)
 {
     System.Console.WriteLine("Координаты введёны некоректно ");
